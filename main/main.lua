@@ -677,8 +677,7 @@ function module.setAnimations(animTable)
         priority = Enum.AnimationPriority.Action
     }
     
-    for animName, animData in pairs(animTable) do
-        if type(animData) == "table" then
+ type(animData) == "table" then
             local newAnimConfig = {}
             
             -- Apply defaults and validate
